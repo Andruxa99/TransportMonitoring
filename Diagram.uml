@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>sample.Main</OriginalElement>
+  <nodes>
+    <node x="110.75" y="0.0">sample.Monitor.Monitor</node>
+    <node x="0.0" y="76.0">sample.Monitor.ScheduleMonitor</node>
+    <node x="111.79999999999998" y="314.0">sample.Main.Main</node>
+    <node x="99.0" y="152.0">sample.GUI.Controller</node>
+    <node x="169.0" y="76.0">sample.Monitor.OnlineMonitor</node>
+    <node x="136.79999999999998" y="228.0">sample.GUI.GUI</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sample.Main.Main" target="sample.Monitor.OnlineMonitor">
+      <point x="18.0" y="-13.0" />
+      <point x="165.79999999999998" y="284.0" />
+      <point x="253.11666666666667" y="284.0" />
+      <point x="16.875" y="13.0" />
+    </edge>
+    <edge source="sample.GUI.GUI" target="sample.GUI.Controller">
+      <point x="16.25" y="-13.0" />
+      <point x="185.54999999999998" y="203.0" />
+      <point x="194.0" y="203.0" />
+      <point x="38.0" y="13.0" />
+    </edge>
+    <edge source="sample.GUI.Controller" target="sample.Monitor.OnlineMonitor">
+      <point x="42.75" y="-13.0" />
+      <point x="198.75" y="127.0" />
+      <point x="219.625" y="127.0" />
+      <point x="-16.875" y="13.0" />
+    </edge>
+    <edge source="sample.Monitor.OnlineMonitor" target="sample.Monitor.Monitor">
+      <point x="-33.75" y="-13.0" />
+      <point x="202.75" y="56.0" />
+      <point x="168.875" y="56.0" />
+      <point x="11.625" y="13.0" />
+    </edge>
+    <edge source="sample.Monitor.ScheduleMonitor" target="sample.Monitor.Monitor">
+      <point x="37.25" y="-13.0" />
+      <point x="111.75" y="56.0" />
+      <point x="145.625" y="56.0" />
+      <point x="-11.625" y="13.0" />
+    </edge>
+    <edge source="sample.Main.Main" target="sample.Monitor.ScheduleMonitor">
+      <point x="-30.0" y="-13.0" />
+      <point x="117.79999999999998" y="294.0" />
+      <point x="48.18333333333332" y="294.0" />
+      <point x="48.18333333333332" y="127.0" />
+      <point x="18.625" y="127.0" />
+      <point x="-55.875" y="13.0" />
+    </edge>
+    <edge source="sample.Main.Main" target="sample.GUI.Controller">
+      <point x="-6.0" y="-13.0" />
+      <point x="141.79999999999998" y="274.0" />
+      <point x="102.68333333333332" y="274.0" />
+      <point x="102.68333333333332" y="203.0" />
+      <point x="118.0" y="203.0" />
+      <point x="-38.0" y="13.0" />
+    </edge>
+    <edge source="sample.Main.Main" target="sample.GUI.GUI">
+      <point x="6.0" y="-13.0" />
+      <point x="153.79999999999998" y="274.0" />
+      <point x="169.29999999999998" y="274.0" />
+      <point x="0.0" y="13.0" />
+    </edge>
+    <edge source="sample.GUI.Controller" target="sample.Monitor.ScheduleMonitor">
+      <point x="-42.75" y="-13.0" />
+      <point x="113.25" y="127.0" />
+      <point x="93.125" y="127.0" />
+      <point x="18.625" y="13.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="354.0" y="192.0" />
+  <SelectedNodes>
+    <node>sample.Monitor.Monitor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

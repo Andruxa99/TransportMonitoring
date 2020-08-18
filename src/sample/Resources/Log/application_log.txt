@@ -1,0 +1,46 @@
+янв. 15, 2020 12:19:31 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+янв. 15, 2020 12:19:32 PM sample.Monitor.Monitor <init>
+INFO: Open page https://cdsvyatka.com/kirov/map
+янв. 15, 2020 12:19:32 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+янв. 15, 2020 12:19:32 PM sample.Monitor.Monitor <init>
+INFO: Open page https://cdsvyatka.com/kirov/schedule
+янв. 15, 2020 12:19:47 PM sample.Monitor.ScheduleMonitor getNumbers
+INFO: Determine the type of transport in the schedule
+янв. 15, 2020 12:19:47 PM sample.Monitor.ScheduleMonitor getNumbers
+INFO: Get a list of transport numbers in the schedule
+янв. 15, 2020 12:20:07 PM sample.Monitor.ScheduleMonitor getStations
+INFO: Select the transport number on a schedule page
+янв. 15, 2020 12:20:07 PM sample.Monitor.ScheduleMonitor getToday
+INFO: Select today's date
+янв. 15, 2020 12:20:08 PM sample.Monitor.ScheduleMonitor getStations
+INFO: Get a list of stations in the schedule
+янв. 15, 2020 12:20:12 PM sample.Monitor.OnlineMonitor getTime
+INFO: Set a new station field in the online monitor
+янв. 15, 2020 12:20:12 PM sample.Monitor.OnlineMonitor getTime
+INFO: Find the right station
+янв. 15, 2020 12:20:13 PM sample.Monitor.OnlineMonitor getTime
+INFO: Find the right time
+янв. 15, 2020 12:20:14 PM sample.Monitor.ScheduleMonitor getToday
+INFO: Select today's date
+янв. 15, 2020 12:20:14 PM sample.Monitor.ScheduleMonitor getTimes
+INFO: Select the station on a schedule page"
+янв. 15, 2020 12:20:14 PM sample.Monitor.ScheduleMonitor getSchedule
+INFO: Get the schedule
+янв. 15, 2020 12:20:56 PM sample.Monitor.OnlineMonitor getTime
+INFO: Set a new station field in the online monitor
+янв. 15, 2020 12:20:56 PM sample.Monitor.OnlineMonitor getTime
+INFO: Find the right station
+янв. 15, 2020 12:20:57 PM sample.Monitor.OnlineMonitor getTime
+INFO: Find the right time
+янв. 15, 2020 12:20:58 PM sample.Monitor.ScheduleMonitor getToday
+INFO: Select today's date
+янв. 15, 2020 12:20:58 PM sample.Monitor.ScheduleMonitor getTimes
+INFO: Select the station on a schedule page"
+янв. 15, 2020 12:20:58 PM sample.Monitor.ScheduleMonitor getSchedule
+INFO: Get the schedule
+янв. 15, 2020 12:21:09 PM sample.Monitor.Monitor close
+INFO: Close page
+янв. 15, 2020 12:21:11 PM sample.Monitor.Monitor close
+INFO: Close page

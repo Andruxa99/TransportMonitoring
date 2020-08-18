@@ -1,0 +1,51 @@
+.root{
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 24;
+}
+
+#searchPanel > .combo-box {
+    -fx-font-size: 14;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-background-color: linear-gradient(#007fc8, #01527f);
+}
+
+#searchPanel > .combo-box > .list-cell{
+    -fx-text-fill: white;
+}
+
+#searchPanel > .combo-box > .text-field{
+    -fx-text-fill: white;
+    -fx-border-radius: 10;
+    -fx-background-color: transparent;
+}
+
+#searchPanel > .combo-box > .arrow-button{
+    -fx-border-radius: 10;
+    -fx-background-color: transparent;
+}
+
+#searchPanel > .label{
+    -fx-font-weight: bold;
+    -fx-text-fill: #2A5058;
+}
+
+#searchPanel > .check-box{
+    -fx-effect: innershadow( gaussian , rgba(0,0,0,0.6) ,8 , 0.0 ,0 ,0 );
+}
+
+#searchButton{
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#007fc8, #01527f);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) ,5 , 0.0 ,0 ,1 );
+}
+
+#searchButton:hover{
+    -fx-background-color: linear-gradient(#01527f, #007fc8);
+}
+
+#resultPanel > .label {
+    -fx-font-size: 18;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2A5058;
+}
